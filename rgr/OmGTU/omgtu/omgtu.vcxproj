@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{6EC478B4-F93F-4EE2-8C40-AA0E35DC3E77}</ProjectGuid>
-    <RootNamespace>Project1</RootNamespace>
+    <RootNamespace>omgtu</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>RGR</ProjectName>
   </PropertyGroup>
