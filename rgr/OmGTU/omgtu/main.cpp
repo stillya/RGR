@@ -6,10 +6,8 @@
 #include <cmath>
 #include <SFML/Graphics.hpp>
 #include <stdio.h>
-#include "headers/menu.h"
 #include <windows.h>
-
-using namespace std;
+#include "headers/menu.h"
 
 void drawAnimtaion(sf::RenderWindow& window);
 

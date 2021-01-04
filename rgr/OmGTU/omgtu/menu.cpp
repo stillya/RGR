@@ -21,7 +21,8 @@ double integralFunc(double x) {
     return pow(x, 0.5) * sin(x);
 }
 
-Menu::Menu(Point coords) : plot(600, 250, sf::Color::Color(100, 112, 219)), root(700, 500, sf::Color::White, "fonts/classic.ttf", 23), integral(800, 500, sf::Color::White, "fonts/classic.ttf", 23) {
+Menu::Menu(Point coords)
+    : plot(600, 250, sf::Color::Color(100, 112, 219)), root(700, 500, sf::Color::White, "fonts/classic.ttf", 23), integral(800, 500, sf::Color::White, "fonts/classic.ttf", 23) {
 
     if (!this->elements.graphTexture.loadFromFile("images/graph_button.png")) {
         printf("ERROR! Can't load texture! \n\n\n");
