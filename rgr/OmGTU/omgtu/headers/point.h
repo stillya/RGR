@@ -6,7 +6,7 @@ typedef struct Point {
 } Point;
 
 
-enum Coord
+enum Coord : int8_t
 {
 	X,
 	Y
